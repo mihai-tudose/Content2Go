@@ -17,7 +17,11 @@
 		131590191782EEAF00CC53D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 131590181782EEAF00CC53D4 /* Default@2x.png */; };
 		1315901B1782EEAF00CC53D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315901A1782EEAF00CC53D4 /* Default-568h@2x.png */; };
 		1315901E1782EEAF00CC53D4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1315901C1782EEAF00CC53D4 /* MainStoryboard.storyboard */; };
-		131590211782EEAF00CC53D4 /* ABSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131590201782EEAF00CC53D4 /* ABSViewController.m */; };
+		131590291782EF7800CC53D4 /* ABSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131590281782EF7800CC53D4 /* ABSLoginViewController.m */; };
+		13A4575417858610001D190F /* ABSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4575317858610001D190F /* ABSMainViewController.m */; };
+		13AF859B178442620006217D /* ABSMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF859A178442620006217D /* ABSMainTableViewCell.m */; };
+		13AF85A0178442C10006217D /* ABSMainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF859F178442C10006217D /* ABSMainCollectionCell.m */; };
+		13AF85A717844DB40006217D /* ABSFileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF85A617844DB40006217D /* ABSFileObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +39,16 @@
 		131590181782EEAF00CC53D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1315901A1782EEAF00CC53D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1315901D1782EEAF00CC53D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1315901F1782EEAF00CC53D4 /* ABSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABSViewController.h; sourceTree = "<group>"; };
-		131590201782EEAF00CC53D4 /* ABSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABSViewController.m; sourceTree = "<group>"; };
+		131590271782EF7800CC53D4 /* ABSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABSLoginViewController.h; path = Classes/ABSLoginViewController.h; sourceTree = "<group>"; };
+		131590281782EF7800CC53D4 /* ABSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABSLoginViewController.m; path = Classes/ABSLoginViewController.m; sourceTree = "<group>"; };
+		13A4575317858610001D190F /* ABSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSMainViewController.m; sourceTree = "<group>"; };
+		13AF8599178442620006217D /* ABSMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABSMainTableViewCell.h; path = Classes/ABSMainTableViewCell.h; sourceTree = "<group>"; };
+		13AF859A178442620006217D /* ABSMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABSMainTableViewCell.m; path = Classes/ABSMainTableViewCell.m; sourceTree = "<group>"; };
+		13AF859C178442850006217D /* ABSMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ABSMainViewController.h; path = Classes/ABSMainViewController.h; sourceTree = "<group>"; };
+		13AF859E178442C10006217D /* ABSMainCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABSMainCollectionCell.h; path = Classes/ABSMainCollectionCell.h; sourceTree = "<group>"; };
+		13AF859F178442C10006217D /* ABSMainCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABSMainCollectionCell.m; path = Classes/ABSMainCollectionCell.m; sourceTree = "<group>"; };
+		13AF85A517844DB40006217D /* ABSFileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABSFileObject.h; path = Classes/ABSFileObject.h; sourceTree = "<group>"; };
+		13AF85A617844DB40006217D /* ABSFileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABSFileObject.m; path = Classes/ABSFileObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +98,9 @@
 				131590131782EEAF00CC53D4 /* ABSAppDelegate.h */,
 				131590141782EEAF00CC53D4 /* ABSAppDelegate.m */,
 				1315901C1782EEAF00CC53D4 /* MainStoryboard.storyboard */,
-				1315901F1782EEAF00CC53D4 /* ABSViewController.h */,
-				131590201782EEAF00CC53D4 /* ABSViewController.m */,
+				13AF85A1178446070006217D /* Controllers */,
+				13AF8598178442190006217D /* Cells */,
+				13AF85A2178446210006217D /* Objects */,
 				1315900B1782EEAF00CC53D4 /* Supporting Files */,
 			);
 			path = Content2Go;
@@ -105,6 +118,37 @@
 				1315901A1782EEAF00CC53D4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13AF8598178442190006217D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				13AF8599178442620006217D /* ABSMainTableViewCell.h */,
+				13AF859A178442620006217D /* ABSMainTableViewCell.m */,
+				13AF859E178442C10006217D /* ABSMainCollectionCell.h */,
+				13AF859F178442C10006217D /* ABSMainCollectionCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		13AF85A1178446070006217D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				131590271782EF7800CC53D4 /* ABSLoginViewController.h */,
+				131590281782EF7800CC53D4 /* ABSLoginViewController.m */,
+				13AF859C178442850006217D /* ABSMainViewController.h */,
+				13A4575317858610001D190F /* ABSMainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		13AF85A2178446210006217D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				13AF85A517844DB40006217D /* ABSFileObject.h */,
+				13AF85A617844DB40006217D /* ABSFileObject.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +220,11 @@
 			files = (
 				131590111782EEAF00CC53D4 /* main.m in Sources */,
 				131590151782EEAF00CC53D4 /* ABSAppDelegate.m in Sources */,
-				131590211782EEAF00CC53D4 /* ABSViewController.m in Sources */,
+				131590291782EF7800CC53D4 /* ABSLoginViewController.m in Sources */,
+				13AF859B178442620006217D /* ABSMainTableViewCell.m in Sources */,
+				13AF85A0178442C10006217D /* ABSMainCollectionCell.m in Sources */,
+				13A4575417858610001D190F /* ABSMainViewController.m in Sources */,
+				13AF85A717844DB40006217D /* ABSFileObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +262,6 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,7 +274,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -246,13 +293,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -301,6 +347,7 @@
 				131590261782EEAF00CC53D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
